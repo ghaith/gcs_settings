@@ -1,0 +1,25 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "64683a8e-9605-4366-a3c4-1523a47f23db",
+			"type": "trait",
+			"name": "Dreamer",
+			"notes": "Can get random prophecies while sleeping, grants access to Tel'Aran'Rhiod",
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "2d1a307c-caa1-4302-8aa6-61a39406acfc",
+			"type": "trait",
+			"name": "Tel'Aran'Rhiod (Access)",
+			"notes": "Grants access to Tel'Aran'Rhiod without being a dreamer (for Animals)",
+			"calc": {
+				"points": 0
+			}
+		}
+	]
+}

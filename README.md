@@ -1,1 +1,3 @@
-# gcs_settings
+# GURPS GCS Settings
+
+GCS Settings for local gurps campains

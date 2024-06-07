@@ -1,0 +1,20 @@
+{
+	"type": "skill_list",
+	"version": 2,
+	"id": "9722b955-27c9-492e-abc2-3892de0f67a1",
+	"rows": [
+		{
+			"type": "skill",
+			"id": "394acc2a-7d11-4528-9bcc-fa8693698ac4",
+			"name": "Magie/E",
+			"difficulty": "mb/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "mb",
+					"modifier": 1
+				}
+			]
+		}
+	]
+}

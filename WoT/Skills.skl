@@ -1,0 +1,189 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "cceaba76-c227-476d-9db1-a5b3b840d56a",
+			"type": "skill",
+			"name": "Tel'aran'rhiod (Dreaming)",
+			"notes": "Mastery skill of the dream world",
+			"difficulty": "will/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": 2
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tel'aran'rhiod (Access)"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"study": [
+				{
+					"type": "self",
+					"hours": 0
+				},
+				{
+					"type": "job",
+					"hours": 0
+				},
+				{
+					"type": "teacher",
+					"hours": 0
+				},
+				{
+					"type": "intensive",
+					"hours": 0
+				}
+			]
+		},
+		{
+			"id": "5fb06eec-bf61-42be-ae9b-029389091e91",
+			"type": "skill_container",
+			"open": true,
+			"children": [
+				{
+					"id": "0e1d9554-f994-414d-b614-0e6394d2271a",
+					"type": "skill",
+					"name": "Channeling",
+					"notes": "Charachter must be female at birth",
+					"specialization": "Saidar",
+					"difficulty": "will/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": 2
+						}
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "touch",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "hearing",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "taste_smell",
+							"amount": 2
+						}
+					],
+					"study": [
+						{
+							"type": "job",
+							"hours": 0
+						},
+						{
+							"type": "self",
+							"hours": 0
+						},
+						{
+							"type": "intensive",
+							"hours": 0
+						},
+						{
+							"type": "teacher",
+							"hours": 0
+						}
+					]
+				},
+				{
+					"id": "5a62794a-48ef-430c-ba32-8da96ee8966e",
+					"type": "skill",
+					"name": "Channeling",
+					"notes": "Charachter must be male at birth",
+					"specialization": "Saidin",
+					"difficulty": "will/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": 3
+						}
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "touch",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "hearing",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "taste_smell",
+							"amount": 2
+						}
+					],
+					"study": [
+						{
+							"type": "job",
+							"hours": 0
+						},
+						{
+							"type": "self",
+							"hours": 0
+						},
+						{
+							"type": "intensive",
+							"hours": 0
+						},
+						{
+							"type": "teacher",
+							"hours": 0
+						}
+					]
+				},
+				{
+					"id": "a4ec37d3-c5f6-4b90-82c5-04270c91d6f6",
+					"type": "skill_container",
+					"open": true,
+					"name": "Weaves"
+				}
+			],
+			"name": "Channeling"
+		}
+	]
+}
