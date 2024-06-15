@@ -79,8 +79,8 @@
 			"reference": "LHR",
 			"notes": "filters reflected light at Brewster's angle, does not protect from overload",
 			"tags": [
-				"Perk",
 				"Exotic",
+				"Perk",
 				"Physical"
 			],
 			"base_points": 2,
@@ -121,8 +121,8 @@
 			"notes": "Based on perception",
 			"tags": [
 				"Advantage",
-				"Supernatural",
-				"Physical"
+				"Physical",
+				"Supernatural"
 			],
 			"base_points": 20,
 			"calc": {
@@ -215,8 +215,8 @@
 			"reference": "LHR",
 			"notes": "any not gerenally granted licence for weapons, vehicles",
 			"tags": [
-				"Perk",
 				"Advantages",
+				"Perk",
 				"Physical"
 			],
 			"levels": 1,
@@ -937,6 +937,57 @@
 			}
 		},
 		{
+			"id": "7aae8dd1-21e6-4dca-a118-48afa053de36",
+			"type": "trait",
+			"name": "Magery",
+			"reference": "B66",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"base_points": 5,
+			"points_per_level": 10,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "contains",
+							"qualifier": "Tradition"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "mb",
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "thaumatology"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "130c0874-396c-41c7-a0ee-b16178dc9c07",
 			"type": "trait",
 			"name": "Extra Mental Points",
@@ -1078,8 +1129,8 @@
 				"Advantage",
 				"Physical"
 			],
-			"base_points": 25,
 			"disabled": true,
+			"base_points": 25,
 			"calc": {
 				"points": 0
 			}
@@ -1342,8 +1393,8 @@
 			"name": "Acute Mana Sene",
 			"tags": [
 				"Advantage",
-				"Supernatural",
-				"Physical"
+				"Physical",
+				"Supernatural"
 			],
 			"levels": 1,
 			"points_per_level": 5,

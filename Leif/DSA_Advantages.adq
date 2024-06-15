@@ -1,5 +1,24 @@
 {
-	"type": "advantage_list",
-	"version": 2,
-	"id": "4fe70e23-11aa-4316-9697-a64933e672ab"
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "d7e41753-b49e-4114-bbf2-8db1b029009a",
+			"type": "trait_container",
+			"open": true,
+			"name": "Languages",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "eea8cbda-ca3e-4263-bc0a-3b3b50b6a47a",
+			"type": "trait_container",
+			"open": true,
+			"name": "Cultures",
+			"calc": {
+				"points": 0
+			}
+		}
+	]
 }
