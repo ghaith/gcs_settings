@@ -23,19 +23,23 @@
 			"tags": [
 				"Athletic"
 			],
-			"difficulty": "dx/a",
-			"points": 4,
-			"defaulted_from": {
-				"type": "ht",
-				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
+			"difficulty": "dx/h",
+			"points": 1,
 			"defaults": [
 				{
-					"type": "ht",
-					"modifier": -5
+					"type": "dx",
+					"name": "Acrobatics",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Running",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -2
 				}
 			]
 		}
