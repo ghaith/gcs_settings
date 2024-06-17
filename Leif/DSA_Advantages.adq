@@ -5,19 +5,253 @@
 		{
 			"id": "d7e41753-b49e-4114-bbf2-8db1b029009a",
 			"type": "trait_container",
+			"children": [
+				{
+					"id": "f721775c-185d-45e2-99a2-210e0268eb3a",
+					"type": "trait",
+					"name": "Garethi",
+					"reference": "B24",
+					"notes": "Horathi",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "621880be-ba69-450d-91de-0694ac06f81f",
+							"type": "modifier",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "40141e1c-d208-4cc3-8a1f-67c1cdc8db84",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "40c8ff20-4737-4e57-9886-2f55deec7c77",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "712a8e66-8630-4ac8-bf23-ee8fe2f5a8cd",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "1286608a-95af-4320-8ad9-91ee31baca0a",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e678e0da-883d-4a35-b2d5-0e6e04583ee4",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ff0942b9-58c5-4514-a96d-669cb6c947d0",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "b1fa3236-d0dc-4b2c-a110-c70d9b3c173c",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "413d5e04-c2de-4057-8acf-7627d2d3bae6",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "86ec2e72-8c9d-445b-a8c7-f304e8152ce9",
+					"type": "trait",
+					"name": "Garethi",
+					"reference": "B24",
+					"notes": "Horathi",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "621880be-ba69-450d-91de-0694ac06f81f",
+							"type": "modifier",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -4,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "712a8e66-8630-4ac8-bf23-ee8fe2f5a8cd",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "1286608a-95af-4320-8ad9-91ee31baca0a",
+							"type": "modifier",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "b1fa3236-d0dc-4b2c-a110-c70d9b3c173c",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "413d5e04-c2de-4057-8acf-7627d2d3bae6",
+							"type": "modifier",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"calc": {
+						"points": 2
+					}
+				}
+			],
 			"open": true,
 			"name": "Languages",
 			"calc": {
-				"points": 0
+				"points": 6
 			}
 		},
 		{
 			"id": "eea8cbda-ca3e-4263-bc0a-3b3b50b6a47a",
 			"type": "trait_container",
+			"children": [
+				{
+					"id": "5f44f6d9-09eb-469a-9cd9-09501d6bc043",
+					"type": "trait",
+					"name": "Achazstamm (Native)",
+					"reference": "B23",
+					"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "1dea8e77-c07a-4d46-8b9d-bb54ed437f2d",
+							"type": "modifier",
+							"name": "Alien",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "61db2082-1d0d-4fd1-9230-c84aa63c0281",
+							"type": "modifier",
+							"name": "Native",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
 			"open": true,
 			"name": "Cultures",
 			"calc": {
-				"points": 0
+				"points": 1
 			}
 		}
 	]
