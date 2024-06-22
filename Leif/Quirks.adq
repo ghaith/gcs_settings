@@ -1,0 +1,54 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "30fc39e1-8e7b-4bbf-9efa-d046a690ed4c",
+			"type": "trait",
+			"name": "Admires professionalism",
+			"tags": [
+				"Quirks"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "6b39a858-7bbc-475c-ba78-55cd08196dc2",
+			"type": "trait",
+			"name": "Collects weapons of fallen foes",
+			"tags": [
+				"Quirks"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "f76497fd-f801-4e59-b010-0e2dec039ace",
+			"type": "trait",
+			"name": "Ruthless to enemies",
+			"tags": [
+				"Quirks"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "9f9fe0f2-6404-44ff-a4b0-14c2ee393376",
+			"type": "trait",
+			"name": "Early Riser",
+			"tags": [
+				"Quirks"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		}
+	]
+}
