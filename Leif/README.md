@@ -1,3 +1,3 @@
-# Leif Houserules für DSA und Mitgard
+# Leif Houserules für DSA und Midgard
 
 ## Attributes
