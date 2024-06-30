@@ -1,0 +1,25 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "c7d80356-c1e8-469d-91e2-03b33d946640",
+			"type": "spell",
+			"name": "Flim Flam Funkel",
+			"reference": "LC87",
+			"tags": [
+				"Magic"
+			],
+			"difficulty": "mb/e",
+			"college": [
+				"Umwelt"
+			],
+			"power_source": "Arcane",
+			"casting_cost": "1",
+			"maintenance_cost": "1 pro SR",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		}
+	]
+}

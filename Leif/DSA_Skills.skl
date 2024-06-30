@@ -3,19 +3,6 @@
 	"version": 4,
 	"rows": [
 		{
-			"id": "394acc2a-7d11-4528-9bcc-fa8693698ac4",
-			"type": "skill",
-			"name": "Magie/E",
-			"difficulty": "mb/e",
-			"points": 1,
-			"defaults": [
-				{
-					"type": "mb",
-					"modifier": 1
-				}
-			]
-		},
-		{
 			"id": "1c2512c3-b48e-4c85-8bb1-1a879911e0e6",
 			"type": "skill",
 			"name": "Parkour",
