@@ -286,10 +286,11 @@
 			"id": "67353cec-8e32-4539-8039-680f6b2e9571",
 			"type": "trait",
 			"name": "Astralenergie",
+			"levels": 1,
 			"points_per_level": 1,
 			"can_level": true,
 			"calc": {
-				"points": 0
+				"points": 1
 			}
 		}
 	]

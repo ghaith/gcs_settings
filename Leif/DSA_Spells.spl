@@ -252,7 +252,7 @@
 			"name": "Visibili Vanitar",
 			"reference": "LC272",
 			"difficulty": "mb/h",
-			"casting_cost": "4AsP / Persion / Spielrunde",
+			"casting_cost": "4AsP / Person / Spielrunde",
 			"casting_time": "1 sec",
 			"duration": "AsP einsatz, max. ZfP* Spielrunden",
 			"points": 1
