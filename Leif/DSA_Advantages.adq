@@ -204,7 +204,6 @@
 					}
 				}
 			],
-			"open": true,
 			"name": "Languages",
 			"calc": {
 				"points": 6
@@ -250,6 +249,46 @@
 			],
 			"open": true,
 			"name": "Cultures",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "579860c7-86b7-4f65-84ec-f4cf37df8305",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "ca918ac0-80f4-4c08-9a7f-3f03b2c4aab7",
+					"type": "trait",
+					"name": "Tradition : @Tradition@",
+					"base_points": 4,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "fa526773-9a8d-44db-93e4-57be053877e0",
+					"type": "trait",
+					"name": "Tradition : Elf",
+					"base_points": 4,
+					"calc": {
+						"points": 4
+					}
+				}
+			],
+			"open": true,
+			"name": "Traditions",
+			"calc": {
+				"points": 8
+			}
+		},
+		{
+			"id": "67353cec-8e32-4539-8039-680f6b2e9571",
+			"type": "trait",
+			"name": "Astralenergie",
+			"levels": 1,
+			"points_per_level": 1,
+			"can_level": true,
 			"calc": {
 				"points": 1
 			}

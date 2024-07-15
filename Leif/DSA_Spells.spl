@@ -20,6 +20,254 @@
 			"casting_time": "1 sec",
 			"duration": "Instant",
 			"points": 1
+		},
+		{
+			"id": "b4ea04d5-5ea2-4a48-941b-3671ea580797",
+			"type": "spell",
+			"name": "Abvenenum Reine Speise",
+			"reference": "LC11",
+			"difficulty": "mb/h",
+			"casting_cost": "4 Asp pro Mahlzeit für 10 personen. Sch 3Asp",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Ach"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Geo"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tradition: Sch"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tradition: Mag"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tradition: Hex"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tradition: Druide"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Tradition: Elf"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "bd604266-d07c-40b1-b7a2-c3507ddcd145",
+			"type": "spell",
+			"name": "Accuratum Zaubernadel",
+			"reference": "LC12",
+			"difficulty": "mb/h",
+			"casting_cost": "4 Asp pro Stein, mind. 7Asp",
+			"casting_time": "8 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "479bf918-d9ca-4fd1-9e5e-10e9782c1f61",
+			"type": "spell",
+			"name": "Adlerauge Luchsenohr",
+			"reference": "LC15",
+			"difficulty": "mb/a",
+			"casting_cost": "4 Asp",
+			"casting_time": "1 sec",
+			"duration": "1 Round",
+			"points": 1
+		},
+		{
+			"id": "d65f72ae-1c86-477e-954e-4e27eaa5e2cb",
+			"type": "spell",
+			"name": "Armatrutz",
+			"reference": "LC28",
+			"difficulty": "mb/a",
+			"casting_cost": "min. 4 Asp. (RS * zusätzlicher RS - ZfP*/2)",
+			"casting_time": "1s",
+			"duration": "Max 1 Round",
+			"points": 1
+		},
+		{
+			"id": "665300df-4a74-4ca0-8839-509afaffa5d4",
+			"type": "spell",
+			"name": "Attributo",
+			"reference": "LC30",
+			"notes": "Eigenschaft + ZfP*/3",
+			"difficulty": "mb/a",
+			"casting_cost": "7 Asp (Sch 5)",
+			"casting_time": "1 sec",
+			"duration": "1 Hour",
+			"points": 1
+		},
+		{
+			"id": "dee256c3-d417-4d66-8d2f-52e92c7c4c4e",
+			"type": "spell",
+			"name": "Balsam Salabunde",
+			"reference": "LC37",
+			"difficulty": "mb/h",
+			"casting_cost": "1 AsP pro LeP, min 5Asp max ZfW * 2 Lep",
+			"casting_time": "min 1s",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "34fa5e7d-022b-408b-bdc1-f5dc2fe49fc7",
+			"type": "spell",
+			"name": "Bannbaladin",
+			"reference": "LC39",
+			"difficulty": "mb/a",
+			"casting_cost": "7AsP",
+			"casting_time": "1 sec",
+			"duration": "ZfP* Spielrunden",
+			"points": 1
+		},
+		{
+			"id": "862c66eb-f255-4717-af26-bf845f1e2c9c",
+			"type": "spell",
+			"name": "Bewegung Stören",
+			"reference": "LC43",
+			"notes": "Reichweite ZfW * 7 Schritt",
+			"difficulty": "mb/h",
+			"casting_cost": "8 AsP + 1/5 ",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "69df28de-9c7f-4d17-a7e0-fe7a6af7f751",
+			"type": "spell",
+			"name": "Chamelioni Mimikry",
+			"reference": "LC54",
+			"difficulty": "mb/h",
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Perception +ZfP*/2 + 7 (+1 für jede 3 Schritte) / Illusion Auflösen",
+			"casting_cost": "4AsP",
+			"casting_time": "1 sec",
+			"duration": "ZfP* * 10KR",
+			"points": 1
+		},
+		{
+			"id": "e694dc39-ff10-44c9-bcde-43a51ee7ca5d",
+			"type": "spell",
+			"name": "Exposami Lebenskraft",
+			"reference": "LC83",
+			"difficulty": "mp/h",
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4 AsP",
+			"casting_time": "3s",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "97a19adf-2ae6-4280-80ad-e3e43232caad",
+			"type": "spell",
+			"name": "Motoricus Geisteshand",
+			"reference": "LC181",
+			"notes": "Geschwindigkeit ZfP*/2",
+			"difficulty": "mb/h",
+			"casting_cost": "1AsP pro 5  Stein min. 3 AsP",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "0a8df6fb-1f4f-41cb-b34f-9c2975a08348",
+			"type": "spell",
+			"name": "Band und Fessel",
+			"reference": "LC38",
+			"difficulty": "mb/h",
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "9AsP (Borb 1W20 AsP oder 1W20 LeP)",
+			"casting_time": "1 sec + 2 pro Schritt Radius",
+			"duration": "ZfP* Stunden",
+			"points": 1
+		},
+		{
+			"id": "52344c8a-aa35-4856-bfcd-ea7078900cb6",
+			"type": "spell",
+			"name": "Visibili Vanitar",
+			"reference": "LC272",
+			"difficulty": "mb/h",
+			"casting_cost": "4AsP / Person / Spielrunde",
+			"casting_time": "1 sec",
+			"duration": "AsP einsatz, max. ZfP* Spielrunden",
+			"points": 1
+		},
+		{
+			"id": "29b66bcb-c14b-4410-9ee0-34f96b854dba",
+			"type": "spell",
+			"name": "Flim Flam Funkel",
+			"reference": "LR87",
+			"notes": "Helligkeit: ZfP*",
+			"difficulty": "mb/e",
+			"casting_cost": "1 AsP pro Spielrunde",
+			"casting_time": "1 sec",
+			"duration": "AsP einsatz",
+			"points": 1
 		}
 	]
 }
